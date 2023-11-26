@@ -1,0 +1,593 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.img-menu {    
+    margin-left: 300px;
+    width: 50%;
+}
+
+.div-menu {
+    width: 50%;
+    margin-left: 200px;
+}
+
+.div-menu ul {
+    list-style-type: none;
+}
+
+.div-menu ul li {
+    display: inline;
+    margin: 10px;
+    font-size: 20px;
+    padding: 12px;
+}
+
+.div-menu ul li:hover {
+    background-color: #ffc00c;
+}
+
+.div-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.div-menu i {
+    margin-right: 8px;
+}
+
+/* section slike */
+
+.indexArtikli {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+    padding: 20px;
+    margin: 150px 200px 0 200px;
+}
+
+.slike {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.slike img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.slike p {
+    font-size: 18px;
+    width: 80%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.addToCart {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border: none;
+    background-color: #ece8e8;
+    padding: 0;
+    border-radius: 20px;
+}
+
+.addToCart .text {
+    flex: 1;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+}
+
+.addToCart .icon {
+    background-color: red;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.addToCart .icon i {
+    color: #fff;
+}
+
+/* div-border */
+
+.div-border {
+    /* background-color: #eee7e7; */
+    display: flex;
+    margin: 100px 250px;
+}
+
+.div-class-border {
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    height: 350px;
+    text-align: center;
+    background-color: #ffc00c;
+    border-radius: 10%;
+}
+
+.div-class-border:hover {
+    background-color: #e8ad3e;
+}
+
+.div-border img {
+    width: 180px;   
+    height: 120px;
+    border: 2px solid;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+/* mobilni telefoni div */
+
+.mobilni-telefoni {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.levi-div {
+    margin-left: 200px;
+    width: 30%;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: royalblue;
+}
+
+.levi-div img {
+    height: 100%;
+    width: 100%;
+}
+
+.levi-div h1 {
+    margin-left: 20px;
+    color: #fff;
+}
+
+.levi-div ul {
+    list-style-type: none;
+    margin: 50px 20px 40px 20px;
+    font-size: 20px;
+    color: #fff;
+    padding-top: 4px;
+}
+
+.levi-div .vidi-sve {
+    margin-top: 60px;
+    padding-top: 10px;
+    border-top: 1px solid #d1cece;
+}
+
+.desni-div {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.desni-div img {
+    width: 200px;
+    height: 200px;
+}
+
+.div-slike-telefona {
+    padding: 10px;
+    text-align: center;
+    width: 25%;
+    margin: 4px;
+    border: 1px solid black;
+}
+
+.div-slike-telefona p {
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+.telefoniCart {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.telefoniCart i {
+    background-color: #ffc00c;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* footer */
+
+.div-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.uslovi-koriscenja {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+    padding: 6px;
+}
+
+.uslovi-koriscenja ul {
+    list-style-type: none;
+}
+
+.shopster {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+    padding: 6px;
+}
+
+.shopster ul {
+    list-style-type: none;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;    
+}
+
+.social-network {
+    margin: 10px;
+    flex: 1;
+    text-align: center;
+}   
+
+.footer i {
+    color: #ffc00c; 
+    padding: 6px;
+}
+
+/* login forma i stranica  */
+
+.login-form {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    height: 70vh;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 150px;
+}
+
+.inputs form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    border: none;
+    border-radius: 20px;
+    background-color: #ece8e8;
+}
+
+.inputs input, button {
+    margin: 14px;
+    padding: 14px;
+    width: 80%;
+}
+
+.inputs button {
+    background-color: #ffc00c;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+}
+
+.inputs a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.inputs button a {
+    color: #fff;
+}
+
+.inputs .btn-createNewAccount {
+    background-color: rgb(62, 194, 18);
+    width: 60%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.inputs .btn-createNewAccount .line {
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+
+.img-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 150px;
+}
+
+.img-inputs p {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.img-inputs img {
+    width: 300px;
+    height: 200px;
+}
+
+
+/* cart css  */
+
+.cart-div {
+    display: flex;
+    background-color: #d1cece;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.cartAndAddress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+}
+
+.cart-orders {
+    margin-top: 200px;
+    border: none;
+    border-radius: 12px;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart-orders-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cart-orders-details img {
+    width: 250px;
+    height: 250px;
+}
+
+.group-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.cart-orders-details p {
+    font-size: 20px;
+    padding: 4px;
+}
+
+.cart-address {
+    border: none;
+    border-radius: 12px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.cart-address p {
+    font-size: 18px;
+    margin: 10px;
+    padding: 2px;
+    border-bottom: 2px solid black;
+    width: 30%;
+    text-align: center;
+}
+
+.cart-address form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cart-address input {
+    padding: 12px;
+    margin: 8px;    
+}
+
+.cart-view {
+    border: none;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+.cart-view-details {
+    margin: 20px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cart-price-sum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px dotted black;
+}
+
+.cart-view p {
+    font-size: 22px;
+    padding: 6px; 
+    margin-top: 10px;  
+}
+
+.cart-view-details .btnOrder {
+    width: 40%;
+    margin-top: 30px;
+    background-color: #ffc00c;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+} 
+
+
+/* products html  */
+
+.product-filters {
+    display: flex;
+    margin: 150px 150px;
+    flex-direction: column;
+}
+
+.filters {
+    background-color: #eee9e9;
+    padding: 20px;
+}
+
+.filters p {
+    font-size: 24px;
+    padding: 6px;
+    margin-left: 6px;
+}
+
+.products-div { 
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.products {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.products p {
+    font-size: 20px;
+    width: 60%;
+    text-align: center;
+}
+
+.products-div img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;   
+}
+
+/* register stranica */
+
+.registerNaslov {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.register-form {
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+}
+
+.register-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc00c;
+    border: none;
+    height: 40vh;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 40%;
+}
+
+.register-form input, button {
+    padding: 14px;
+    margin-top: 16px;
+    width: 30%;
+    border: none;
+    border-radius: 20px;
+}
+
+.register-form button {
+    background-color: rgb(62, 194, 18);
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
